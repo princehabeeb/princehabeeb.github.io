@@ -1,0 +1,280 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	font-family: serif;
+}
+body{
+	background-color:rgb(48, 73, 48) ;
+	font-family: "Sofia serif";
+}
+
+/*----------------------code for navigation menu----------------------*/
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: white;
+}
+
+.logo{
+	font-size: 1.5rem;
+	margin: .5rem;
+}
+.logo-span{
+	color: rgb(50, 102, 50);
+}
+
+
+.nav-links ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+
+.nav-links li a{
+	color: white;
+	padding: 1rem;
+	display: block;
+}
+
+.nav-links li:hover{
+	background-color: #555;
+}
+
+
+.toggle-button{
+	position: absolute;
+	top: .75rem;
+	right: 1rem;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 21px;
+}
+
+.toggle-button .bar{
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}
+/*---------------------- end of code for navigation menu----------------------*/
+/*-------------------------------css products code------------------------*/
+
+
+
+.categories{
+	margin: 70px 0;
+}
+
+.col-3{
+   flex-basis: 30%;
+   min-width: 250px;
+   margin-bottom: 30px;
+}
+
+.col-3 img{
+	width: 100%;
+
+}
+
+
+
+
+p{
+	color: #000000;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 300px;
+}
+
+.col-2 img{
+	max-width: 100%;
+	padding: 50px 0;
+	margin-left: 40px;
+}
+
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+.btn{
+	display: inline-block;
+	background:rgb(48, 73, 4);
+	color: #ffffff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+
+.btn:hover{
+	background: rgb(57, 117, 57);
+}
+
+
+.header{
+	background: radial-gradient(#fff,rgb(48, 73, 48));
+}
+
+.header .row{
+	margin-top: 30px;
+}
+
+
+
+/*----------------------------end of css products code------------------------*/
+
+/*------------------------footer------------------------------*/
+.footer{
+background-color: #333;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+
+
+.footer p{
+	color: #8a8a8a;
+}
+
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+         min-width: 250px;
+         margin-bottom: 20px;
+
+}
+
+
+.footer-col-1{
+	flex-basis: 15%;
+
+}
+
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+
+.footer-col-2 img{
+	
+	margin-bottom: 20px;
+}
+
+
+.footer-col-3, .footer-col-4{
+	flex-basis: 12%;
+	text-align: center;
+}
+
+.app-logo{
+	margin-top: 2opx;
+}
+
+
+.app-logo img{
+	width: 140px;
+}
+
+.footer hr{
+	border: none;
+	height: 1px;
+	margin: 20px 0;
+}
+
+
+/*------------------media query for navigation menu----------------------*/
+
+
+
+@media (max-width: 600px){
+	.toggle-button{
+		display: flex;
+	}
+
+	.nav-links{
+		display: none;
+		width: 100%;
+	}
+
+	.navbar{
+		flex-direction: column;
+		align-items: flex-start;
+
+	}
+
+	.nav-links ul{
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.nav-links li{
+		text-align: right;
+	}
+
+	.nav-links li a{
+		padding: .5rem 1rem;
+	}
+
+	.nav-links.active{
+		display: flex;
+	}
+
+	@media (max-width: 759px){
+
+
+	.row{
+		text-align: center;
+		display: block;
+
+
+		
+
+	}
+	.col-2, .col-3, .col-4{
+		flex-basis: 100%;
+	}
+
+	
+
+}
+
+}
+
+	
+
+
+
+
+
+/*------------------ end of media query for navigation menu--------------------*/
