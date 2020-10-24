@@ -1,0 +1,350 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: #353745;
+	z-index: 12;
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	
+
+
+}
+
+nav{
+	flex: 1;
+	text-align: right;
+
+	
+}
+
+nav ul{
+	display: inline-block;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+a{
+	color: #fff;
+}
+
+
+p{
+	color: #000000;
+}
+
+.menu-img{
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+
+
+
+.container{
+	width: 100%;
+	height: 95vh;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.container{
+	background-color: white;
+	background-attachment: fixed;
+}
+
+
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+}
+
+.intro{
+	padding: 50px;
+	margin-left: 20px;
+	letter-spacing: 5px;
+
+}
+
+.container h1, p{
+	font-weight: bold;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 10%;
+	letter-spacing: 0.5px;
+	text-align: center;
+	color: black;
+
+}
+
+.container h1, p{
+	text-transform: uppercase;
+}
+
+.div-container{
+    width: 100%;
+    height: auto;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.box{
+	width: 200px;
+	height: 300px;
+	background: white;
+	margin: 20px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.box{
+	border-radius: 12px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.box img{
+	width: 100px;
+	margin-top: 10%;
+}
+
+.box h4{
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.box span{
+	text-transform: uppercase;
+}
+
+/*@charset "utf-8"*/
+
+
+footer{
+	background-color: #353745;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.f-logo{
+	padding: 5px 10px;
+}
+
+.up-section ul, .down-section ul{
+	font-family: calibri;
+	margin: 0px;
+	padding: 0px 20px;
+}
+
+
+.up-section h1, .down-section h1{
+	color: #9697a0;
+	font-size: 20px;
+	font-family: calibri;
+
+}
+
+.up-section ul li a, .down-section ul li a{
+	font-size: 16px;
+	color: #575a70;
+}
+
+.up-section ul li p{
+	font-size: 14px;
+	color: #575a70;
+	line-height: 10px;
+}
+
+.up-section, .down-section {
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 0px;
+	margin: 5px;
+	width: 80%;
+	flex-wrap: wrap;
+}
+
+.up-section{
+	border-bottom: 1px solid #545562;
+}
+
+.social-icons a{
+	width: 35px;
+	height: 35px;
+	margin: 0px 5px;
+	background-color: #424356;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-icons{
+	display: flex;
+}
+
+.search input{
+	height: 35px;
+	width: 200px;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+
+.social-icons i{
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.up-section ul li a:hover, .down-section ul li a:hover{
+  color: #9697a0;
+}
+
+
+.social-icons a:hover{
+	background-color: #9a9ff6;
+	transition: 0.5s;
+}
+
+.social-icons a:hover i{
+	color: #424356;
+}
+
+
+
+
+
+
+/*------------------menu media query-------------------*/
+
+@media  (max-width: 800px){
+	nav ul{
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background:#353745;
+		width: 100%;
+		overflow: hidden;
+		transition: max-height 0.5s;
+
+	}
+nav ul li{
+	display: block;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+nav ul li a{
+	color: #fff;
+}
+
+/*-----menu img cont--------*/
+.menu-img{
+	display: block;
+	cursor: pointer;
+}
+
+
+}
+
+
+/*--------------------media query for div ------------------*/
+
+ @media (max-width: 1200px){
+	.box{
+		width: 40%;
+	}
+
+
+	@media (max-width: 600px){
+	.box{
+		width: 90%;
+	}
+}
+
+@media (max-width: 600px){
+	.container{
+	width: 100%;
+}
+
+
+}
+
+/*------------------menu media query for footer-------------------*/
+@media (max-width: 1024px){
+	.search{
+		margin: 20px auto;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		justify-content: center;
+	}
+
+	
+	}
+
+	@media (max-width: 720px){
+		.up-section, .down-section{
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+
+		.container h1, p{
+			margin-top: 17%;
+		}
+
+		.up-section ul h1, .up-section ul h1{
+            font-size: 25px;
+		}
+
+		.up-section ul li, .up-section ul li{
+			text-align: center;
+			margin: 10px;
+		}
+
+		.up-section ul li a, .up-section ul li a{
+			font-size: 20px;
+		}
+
+		
+
+		.search{
+			display: block;
+		}
+
+		.container h1 
+
+		
+
+	}
