@@ -1,0 +1,45 @@
+body{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+/*=============uncoment start project only===========*/
+.height{
+	
+	min-height: 100vh;
+}
+
+/*=============uncoment start project only===========*/
+
+.navbar{
+	z-index: 12;
+	position: fixed;
+	width: 100%;
+}
+
+
+
+.tittle-underline{
+	width: 80px;
+	height: 3px;
+	margin:0 auto;
+	/*background: blue!important; incase i want another color===*/
+}
+
+
+.height-80{
+	min-height: 80vh;
+}
+
+
+
+.row img{
+	width: 100%;
+}
+
+
+a:hover{
+   cursor: pointer;
+}
+
+
