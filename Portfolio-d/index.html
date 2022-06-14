@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniella Nicoara Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Animation on scroll (AOS) css cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-
+    <!-- Preloader html code begins -->
+    <div id="preloader"></div>
+     <!-- Preloader html code ends -->
     <!-- home section html codes start -->
     <section class="home">
         <div class="home-text">
             <p>Hi, i am</p>
             <h1>DANIELLA NICOARA</h1>
             <h3>User Experience Designer</h3>
-            <button class="btn">Download CV</button>
+            <button class="btn">
+                <a href="./images/resume.jpg" id="btn" download="./images/resume.jpg">Download CV</a>
+            </button>
         </div>
         
     </section>
@@ -24,7 +30,7 @@
 
   <!-- about me section html codes starts -->
   <section class="about">
-    <div class="about-me-text">
+    <div class="about-me-text" data-aos="fade-right">
         <h1>ABOUT ME</h1>
         <p>I am a product designer and tech enthusiast based in Toronto. I am passionate about improving the lives of others 
             through different facets of design.
@@ -55,7 +61,7 @@
 
     </div>
     <div class="about-me-img">
-        <img src="./images/Dani pic.jpg" alt="my Portfolio image">
+        <img src="./images/Dani pic.jpg" alt="my Portfolio image" data-aos="fade-up">
     </div>
 </section>
 <!-- about me section html codes ends -->
@@ -114,8 +120,8 @@
     <h1 class="skills-h1">My projects</h1>
     <div class="underline"></div>
 </div>
-<section class="projects">
-    <div class="col col-1">
+<section class="projects" style="overflow: hidden;">
+    <div class="col col-1" data-aos="fade-right">
         <img src="./images/Project main page.jpg" alt="project-1-img ">
         <h1>UX/UI ProjectTutor Match</h1>
         <p>
@@ -126,7 +132,7 @@
         <a href="https://www.figma.com/file/BkanM2d8DAhjrD2Rab3Qnv/TUTOR-MATCH?node-id=0%3A1
         " class="btn-2">view more</a>
     </div>
-    <div class="col col-2">
+    <div class="col col-2" data-aos="fade-down">
         <img src="./images/TUTOR MATCH.png" alt="research img">
         <h1>UX/UI ProjectFair Trade Vancouver</h1>
         <p>
@@ -136,7 +142,7 @@
         <a href="ttps://www.figma.com/file/a3KcYcL39w1GOCNnXsqrQ9/Group-05-Miscellaneous?node-id=0%3A1
         " class="btn-2">view more</a>
     </div>
-    <div class="col col-3">
+    <div class="col col-3" data-aos="fade-left">
         <img src="./images/Travel App LikiZo.png" alt="research img">
         <h1>UX/UI ProjectLiKiZo</h1>
         <p>
@@ -150,8 +156,8 @@
 <!-- projects/work  section html codes ends -->
 
 <!-- contact me  section html codes starts -->
-<section class="contact-me">
-    <div class="contact-box-1">
+<section class="contact-me" style="overflow: hidden;">
+    <div class="contact-box-1" data-aos="fade-down">
         <h1>
             GET IN TOUCH
         </h1>
@@ -175,7 +181,7 @@
             </form>
         </div>
     </div>
-    <div class="contact-box-2">
+    <div class="contact-box-2" data-aos="fade-left">
         <img src="./images/Logo.jpg" alt="contact">
     </div>
 </section>
@@ -185,5 +191,13 @@
     <p>copyright @ Dany Designs 2022</p>
 </footer>
 <!-- footer  section html codes ends -->
+
+
+
+
+<!-- Animation on scroll (AOS) javascript cdn  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- custom javascript cdn -->
+<script src="script.js"></script>
 </body>
 </html>
