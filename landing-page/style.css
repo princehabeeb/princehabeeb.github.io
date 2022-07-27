@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.home{
+	width: 100%;
+	height: 100vh;
+	background: url(img.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul{
+	list-style-type: none;
+}
+
+
+.navbar a{
+	text-decoration: none;
+	margin-right: 65px;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+.navbar li{
+	display: inline-block;
+}
+
+.navbar .logo{
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: monospace;
+}
+
+
+.active{
+	border: 2px solid purple;
+	padding: 12px;
+	border-radius: 100px;
+	transition: 0.5s ease;
+}
+
+.active:hover{
+	background-color: purple;
+	color: black;
+}
+
+.hero{
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 15%;
+	text-align: center;
+}
+
+
+.hero h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: monospace;
+	font-weight: 700;
+}
+
+
+
+.hero button{
+background: purple;
+cursor: pointer;
+border-radius: 100px;
+padding: 15px;
+width: 200px;
+font-family: monospace;
+font-size: 25px;
+border: none;
+transition: 0.5s ease;
+margin: 10px;
+}
+
+
+.hero button:hover{
+	transform: scale(.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

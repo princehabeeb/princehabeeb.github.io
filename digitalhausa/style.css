@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Quicksand&display=swap');
+
+
+
+
+
+body{
+	background: #fff;
+}
+.main-content{
+	background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(images/bg-4.jpg);
+	width: 100%;
+	height: 60vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+section{
+	overflow: hidden;
+}
+
+footer{
+	overflow: hidden;
+}
+
+.btn{
+font-weight: bold;
+}
+
+.navbar-brand{
+ font-weight: 900;
+}
+
+.home-container{
+	/*text-align: center;*/
+	padding-top: 10%;
+}
+
+.home-container h1{
+	color: black;
+	text-transform: capitalize;
+	 font-family: 'Poppins', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.blog-img{
+	width: 100%;
+}
+
+.blog-content{
+padding: 5%;
+}
+
+.blog-content p{
+	font-size: 22px;
+     font-family: 'Poppins', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.course-img img{
+	width: 100%;
+	height: 300px;
+
+}
+.course-row{
+	/*width: 300px;*/
+	background: #c4c4c4;
+	padding: 5%;
+}
+
+.course-col{
+	background: #fff;
+	padding: 2%;
+	border: 2px solid black;
+	/*box-shadow: 2px 2px 2px #fff;*/
+	/*margin-right: 1px;*/
+}
+
+.course-col h6{
+	font-weight: 800;
+	font-size: 25px;
+	margin: 1%;
+}
+
+.price{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+footer a{
+	text-decoration: none;
+}
+
+.arrow-up{
+	width: 45px;
+	height: 45px;
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 900;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.arrow-up a{
+	text-decoration: none;
+}
+
+.email{
+	font-weight: bold;
+}
+
+
+/* Preloader css code begins */
+#preloader{
+    background: #000 url(images/loader.gif) no-repeat center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.course-detail p{
+	background:#c4c4c4 ;
+	padding: 2%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	
+}
+
+#navme{
+	position: fixed;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+	.course-col{
+	margin: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+}
+
+
+
+@media screen and (max-width: 800px){
+	.home-container{
+	/*text-align: center;*/
+	padding-top: 30%;
+}
+}
