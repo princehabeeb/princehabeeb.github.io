@@ -202,6 +202,9 @@ h6,
 }
 
 @media (max-width: 991.98px) {
+    .my-my{
+          overflow-x: hidden;
+    }
     .sticky-top.navbar-light {
         position: relative;
         background: #FFFFFF;
