@@ -73,6 +73,7 @@ h6,
 /*** Button ***/
 .btn {
     transition: .5s;
+    border: 2px solid white;
 }
 
 .btn.btn-primary-gradient,
@@ -99,16 +100,14 @@ h6,
 
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient::after {
-    /* background: linear-gradient(to bottom right, var(--primary), var(--secondary)); */
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,102,252,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+   
 }
 
 .btn.btn-secondary-gradient,
 .btn.btn-primary-gradient::after {
-    /* background: linear-gradient(to bottom right, var(--secondary), var(--primary)); */
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,102,252,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+  
 }
 
 .btn.btn-primary-gradient:hover::after,
