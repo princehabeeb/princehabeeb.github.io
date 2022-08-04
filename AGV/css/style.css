@@ -10,6 +10,10 @@ body{
     --dark: #262B47;
 }
 
+.container{
+    overflow-x: hidden !important;
+}
+
 
 /* hokd this #8F12FD    #4294E3*/
 
