@@ -73,7 +73,7 @@ h6,
 /*** Button ***/
 .btn {
     transition: .5s;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .btn.btn-primary-gradient,
