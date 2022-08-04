@@ -4,14 +4,14 @@ body{
 
 /********** Template CSS **********/
 :root {
-    --primary: #4294E3;
+    --primary: #0000FF;
     --secondary:  #0000FF;
     --light: #F0F6FF;
     --dark: #262B47;
 }
 
 
-/* hokd this #8F12FD */
+/* hokd this #8F12FD    #4294E3*/
 
 /*** Spinner ***/
 #spinner {
