@@ -509,3 +509,7 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.custom-color{
+    border: 2px solid white !important;
+}
