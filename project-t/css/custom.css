@@ -1,0 +1,80 @@
+.header{
+    background-color: #121212;
+}
+
+
+.dl-menu li a{
+   color: #fff  !important;
+   opacity: 87% !important;
+}
+
+@media screen and (max-width: 900px) {
+    .dl-menu{
+        background-color: #121212;
+        border-bottom: #fff;
+    }
+
+    .dl-menu li {
+        border-bottom:1px solid #fff !important;
+    }
+    .header-menu-wrap{
+        background-color: #121212;
+    }
+}
+
+ /* body{
+    color: #121212  !important;
+    opacity: 87% !important;
+ } */
+
+.bg-grey{
+    background-color: #121212;
+}
+
+
+.bg-grey span, h2, p {
+    color: #fff  !important;
+    /* opacity: 87% !important; */
+}
+
+.overided-class{
+    color: #fff  !important;
+}
+
+.service-item, .promo-section{
+    background-color: #121212;
+}
+
+.service-item h3{
+    color: #fff  !important;
+}
+
+.box-shadow{
+    background-color: #000;
+    box-shadow: 0px 5px 17px -7px rgba(63, 63, 63, 0.75) !important;
+}
+
+.box-shadow h3{
+    color: #fff  !important;
+}
+
+.projects-section{
+    background-color: #121212;
+}
+
+.projects-section span{
+    color: #fff  !important;
+}
+
+.content-section{
+    background-color: #121212;
+}
+
+.content-section h3, h4{
+    color: #fff  !important;
+    opacity: 87% !important;
+}
+
+.burger-menu div{
+   background-color: #fff;
+}
