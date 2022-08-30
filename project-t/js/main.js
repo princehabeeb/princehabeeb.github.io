@@ -1,24 +1,31 @@
 /*Theme Scripts */
 
 (function($){ "use strict";
+
+
+// i commented it
              
-    $(window).on('load', function() {
-        $('body').addClass('loaded');
-    });
+//     $(window).on('load', function() {
+//         $('body').addClass('loaded');
+//     });
+
+// i commented it
              
 /*=========================================================================
 	Header
 =========================================================================*/
-    var primaryHeader = $('.primary-header'),
-        headerClone = primaryHeader.clone();
-    $('.header').after('<div class="sticky-header"></div>');
-    $('.sticky-header').html(headerClone);
-    var headerSelector = document.querySelector(".sticky-header");
-    var headroom = new Headroom(headerSelector, {
-        offset: 100
-    });
+ // i commented it
+   // var primaryHeader = $('.primary-header'),
+    //     headerClone = primaryHeader.clone();
+    // $('.header').after('<div class="sticky-header"></div>');
+    // $('.sticky-header').html(headerClone);
+    // var headerSelector = document.querySelector(".sticky-header");
+    // var headroom = new Headroom(headerSelector, {
+    //     offset: 100
+    // });
 
-    headroom.init();
+    // headroom.init();
+ // i commented it
 
     if ($('.primary-header').length) {
         $('.header .primary-header .burger-menu').on("click", function () {
