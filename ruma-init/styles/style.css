@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home{
+    width: 100%;
+    /* height: 100vh; */
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ padding-top: 30px;
+}
+
+.home-header{
+    background-color: #121212;
+    width: 20%;
+    color: white;
+    height: 250px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+
+.mm img{
+    max-width: 100%;
+}
+
+
+.line-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.line-container div{
+    background-color: #fff;
+    width: 40%;
+    height: 1px;
+}
+
+.home-header h4{
+    font-size: 25px;
+    text-align: center;
+}
+
+.home-desc{
+    padding-top: 140px;
+}
+
+.container-two{
+    width: 60%;
+    margin:  0 auto;
+    padding: 5px;
+}
+
+.container-two h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.container-two p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-divs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn-divs button{
+    padding: 10px;
+    background-color: #6f6ff4;
+    width: 300px;
+    margin: 3px;
+    border: none;
+    border-radius: 100px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width:850px){
+    .home-header{
+        background-color: #121212;
+        width: 40%;
+        color: white;
+        height: 200px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+    } 
+    .container-two{
+        width: 80%;
+        margin:  0 auto;
+        padding: 10px;
+    }
+
+    .container-two h1{
+       font-size: 25px;
+    }
+
+   
+}
+
+@media screen and (max-width:500px){
+    .home-header{
+        background-color: #121212;
+        width: 65%;
+        color: white;
+        height: 250px;
+        font-family: 'Montserrat', sans-serif;
+        padding: 20px;
+    } 
+
+    .btn-divs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .container-two p{
+        color: #fff;
+        text-align: center;
+        /* font-size: 20px; */
+    }
+}
+
+.about-section{
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 80vh; */
+    display: flex;
+    align-items: center;
+}
+
+.about-div div{
+    padding: 20px;
+}
+
+.about-col-1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   font-weight: bold;
+   color: #fff;
+}
+
+
+.about-col-2{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 900px){
+    .about-col-2{
+        background-color: #000;
+        color: #fff;
+        font-size: 15px;
+        max-height: 100%;
+    }
+}
+
+
+.our-goals{
+    background: url(../images/bg4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.g-1{
+    /* border: 1px solid red; */
+    padding-top: 40px;
+}
+
+.g-1 h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.g-1 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.g-2 {
+    /* border: 1px solid red;  */
+    height: 100%;
+    display: flex;
+    justify-content:  end;
+    align-items: center;
+}
+
+
+.g-2 div{
+    /* border: 1px solid green;  */
+}
+
+.g-2 div p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.g-2 div h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.g-2 div h1 .sp-1{
+    color: rgba(0, 0, 255, 0.683);
+    font-weight: bold;
+}
+
+.skillme{
+    background: url(../images/bg5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:850px){
+    .mm{
+        margin: 5px;
+    }
+    .our-goals{
+        background: url(../images/bg4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+    }
+
+
+.mm h1{
+  background-color: lightskyblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.style-my-h1 h1{
+    font-weight: 900;
+    background-color: beige;
+    padding: 10px;
+    color: black;
+}
+
+
+.style-my-h1 img{
+    max-width: 100%;
+}
+
+.footer-img{
+    box-shadow: 10px -20px;
+}
+
+.footer-img img{
+   max-width: 100%;
+}
+
+.bg-black{
+    background: url(../images/bg5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
