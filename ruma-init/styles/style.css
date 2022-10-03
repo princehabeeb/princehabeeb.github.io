@@ -311,7 +311,20 @@ body{
     text-align: center;
 }
 
-.fab, .fa{
+.fa{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.fab {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
