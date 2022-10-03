@@ -298,3 +298,35 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.last-st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.last-st div{
+    text-align: center;
+}
+
+.fab{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.last-st h4 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 12px;
+}

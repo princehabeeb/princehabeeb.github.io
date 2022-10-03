@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    align-items: center;
+}
+h1{
+    color: blanchedalmond;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+    display: flex;
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    transition: .6s;
+    font-size: 25px;
+}
+a:hover{
+    color:brown;
+
+}
+.Home{
+    width: 100%;
+    background-image: url(../home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home div{
+    /* border: 2px solid green; */
+    text-align: center;
+    width: 50%;
+}
+.Home div h1{
+    color: yellow;
+    font-size: 70px;
+}
+.Home div button{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    font
+}
