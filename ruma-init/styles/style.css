@@ -311,7 +311,7 @@ body{
     text-align: center;
 }
 
-.fab{
+.fab, .fa{
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
