@@ -348,3 +348,8 @@ body{
     text-align: center;
     margin: 12px;
 }
+
+.mm img{
+    height: 300px;
+    max-width: 100%;
+}
