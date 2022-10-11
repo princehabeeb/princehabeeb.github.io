@@ -1,0 +1,21 @@
+#Alternate default index pages
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php56” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php56 .php .php5 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+php_value session.gc_maxlifetime 40800
+php_value max_input_time         40800
+php_value max_execution_time     40800
+php_value upload_max_filesize    310M
+php_value post_max_size          220M
