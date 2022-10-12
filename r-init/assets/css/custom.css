@@ -122,3 +122,23 @@ body{
         padding: 20px;
     } 
 }
+
+.section-title h1{
+    color: white;
+}
+
+.team-section p{
+    color: white;
+}
+
+.team-wrapper img{
+    height: 200px;
+}
+
+.team-text h4{
+    color: white;
+}
+
+.services-wrapper h3, p{
+    color: #fff;
+}
