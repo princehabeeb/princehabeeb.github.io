@@ -142,3 +142,12 @@ body{
 .services-wrapper h3, p{
     color: #fff;
 }
+
+.postbox__text .blog-show{
+   display: none !important;
+   border: 5px solid red;
+}
+
+.postbox__text .blog-hidden{
+    display: block !important;
+}
