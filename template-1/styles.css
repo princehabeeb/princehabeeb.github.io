@@ -1,0 +1,404 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    /* font-family: 'Inconsolata', monospace;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Quicksand', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+    background-color: #fcfcfc; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg-dak{
+    background:linear-gradient(0deg, rgba(239, 233, 122, 0.3), rgba(239, 233, 122, 0.3)), url(./images/home-1.jpg);
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+section{
+    overflow: hidden;
+}
+
+
+#myHeader{
+    background:url(./images/home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#myHeader{
+    background-image: url("./images/home.png"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+}
+
+
+
+.btn{
+    transition: .6s;
+}
+
+.btn-width{
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.btn-solid{
+    color: white;
+    background: orange;
+    border-radius: 100px; 
+    border: 2px solid orange;
+}
+
+.btn-edit{
+    border-radius: 100px;
+    color: white;
+    border: 2px solid orange;
+}
+
+.btn-edit:hover{
+    color: black;
+    background: orange;
+}
+
+@media screen and (max-width:1200px){
+    .btn-width{
+        width: 200px;
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .btn-nav{
+       display: none;
+    }
+
+    .navbar-nav{
+        border-top: 2px solid #fff;
+        margin-top: 13px;
+    }
+}
+
+
+.header-content{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:35vh ;
+}
+
+
+.navbar-brand img{
+    width: 105px;
+    height: 55px;
+}
+
+.header-content h1{
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-content h6{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1000px){
+    .header-content{
+        width: 92%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top:25vh ;
+    }
+}
+
+.why-us .col-lg-4{
+    /* border: 2px solid green; */
+    padding: 15px;
+    /* margin: 0.5px; */
+}
+
+.icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: orange;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.m-div{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    transition: .3s;
+}
+
+
+.m-div:hover{
+    transform: translateY(-20px);
+}
+
+.logos img{
+    width: 85px;
+    height: 85px;
+    margin: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+}
+
+.surfing{
+    background-color: orange;
+    padding-top: 19px;
+}
+
+@media screen and (max-width:900px){
+    .logos img{
+        width: 45px;
+        height: 65px;
+        margin: 17px;
+    }
+}
+.inner-col{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.mtn{
+    font-size: 20px;
+    height: 70px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid black; */
+}
+
+/* ul{
+    list-style-type: none;
+    width: 100%;
+} */
+
+.inner-col p{
+    text-align: center;
+}
+
+.inner-col h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+ .line{
+    background-color: #c2c2c2;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.airtel{
+    background-color: red;
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    background-color: green;
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Glo{
+    background-color: rgb(98, 159, 98);
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services{
+    background-color: orange;
+}
+
+.s-container i{
+    font-size: 55px;
+}
+
+.a-container i{
+    font-size: 35px;
+}
+
+.ii-contain{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.ii-contain h6{
+    font-size: 20px;
+}
+
+.form{
+    box-shadow:  rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+form input{
+    width: 100%;
+    height: 42px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid orange;
+}
+
+form textarea{
+    height: 120px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid orange;
+}
+
+form textarea, .form-btn{
+    width: 100%;
+}
+
+form button{
+    height: 42px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    /* border: 2px solid orange; */
+    box-shadow:  rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background: none;
+    background: orange;
+    cursor: pointer;
+    transition: .6s;
+    color: white;
+    font-size: 20px;
+}
+
+form button:hover{
+    background-color: rgb(204, 139, 19);
+    color: black;
+}
+
+.text-c h1{
+    font-size: 45px;
+}
+
+
+.text-c p{
+    font-size: 22px;
+}
+
+.footer{
+    background:linear-gradient(0deg, rgba(239, 233, 122, 0.3), rgba(239, 233, 122, 0.3)), url(./images/home-1.jpg);
+    margin-bottom: 0;
+}
+
+.footer img{
+    width: 300px;
+    height: 100px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: blue;
+}
+
+.i-icon{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.i-icon i{
+    margin: 10px;
+    font: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.i-icon i:hover{
+   color: blue;
+}
+
+.watsapp-lg-icon{
+    position: fixed;
+    right: 2%;
+    bottom: 20%;
+    background-color: orange;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.arrow-top{
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    background-color: orange;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.watsapp-lg-icon i{
+    font-size: 55px;
+    color: green;
+}
+
+.arrow-top i{
+    font-size: 55px;
+    color: green;
+}
