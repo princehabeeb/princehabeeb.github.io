@@ -43,10 +43,7 @@
                     </div>
                 </div>
             </div>
-            <!-- breadcrumb-area-start -->
-
-            
-           
+            <!-- breadcrumb-area-start -->           
             <!-- contact-us-area-start -->
             <div class="contact-2-area pt-80 pb-100">
                 <div class="container">
@@ -85,11 +82,7 @@
                 </div>
             </div>
             <!-- contact-us-area-end -->
-
-
         </main>
-    
-
 		<?php include("templates/footer.php"); ?>
 		<?php include("templates/jsFiles.php"); ?>
 
